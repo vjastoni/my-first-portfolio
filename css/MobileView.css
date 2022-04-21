@@ -1,0 +1,246 @@
+@media screen and (max-width: 450px) {
+    /* INDEX HTML */
+    html{
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+    .nav-bar-container{
+        visibility: hidden;
+    }
+    .header-container{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 25px;
+        margin-left: 20px;
+    }
+    .img-header{
+        width: 90%;
+        height: 90%;
+        padding: 0;
+        margin: 0;
+    }
+    /* FLOATING MENU BAR */
+    .menu-wrap {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+    .menu-wrap .toggler {
+        position: absolute;
+        top: 6px;
+        left: 340px;
+        z-index: 2;
+        cursor: pointer;
+        width: 50px;
+        height: 50px;
+        opacity: 0;
+    }
+    .menu-wrap .hamburger {
+        position: absolute;
+        top: 6px;
+        left: 340px;
+        z-index: 1;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .menu-wrap .hamburger > div {
+        position: relative;
+        width: 100%;
+        height: 2px;
+        background-color: rgba(4, 11, 20, 0.9);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.4s ease;
+    }
+    .menu-wrap .hamburger > div:before,
+    .menu-wrap .hamburger > div:after{
+        content: '';
+        position: absolute;
+        z-index: 1;
+        top: -10px;
+        width: 100%;
+        height: 2px;
+        background: inherit;
+    }
+    .menu-wrap .hamburger > div:after {
+        top: 10px;
+    }
+    .menu-wrap .toggler:checked + .hamburger > div{
+        transform: rotate(135deg);
+    }  
+    .menu-wrap .toggler:checked + .hamburger > div:before,
+    .menu-wrap .toggler:checked + .hamburger > div:after{
+        top: 0;
+        transform: rotate(90deg);
+    }
+    .menu-wrap .toggler:checked:hover + .hamburger > div{
+        transform: rotate(225deg);
+    }
+    .menu-wrap .toggler:checked ~ .menu{
+        visibility: visible;
+    }
+    .menu-wrap .toggler:checked ~ .menu > div{
+        transform: scale(1);
+        transition-duration: var(--menu-speed);
+    }
+    .menu-wrap .toggler:checked ~ .menu > div > div{
+        opacity: 1;
+        transition: opacity 0.4s ease;
+    }
+    .menu-wrap .menu{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        visibility: hidden;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .menu-wrap .menu > div{
+        background-color: rgba(225, 230, 238, 0.98); 
+        width: 200vw;
+        height: 200vw;
+        display: flex;
+        flex: none;
+        align-items: center;
+        align-content: flex-start;
+        justify-content: flex-start;
+        margin-left: 400px;
+        font-weight: bolder;
+        transform: scale(0);
+        transition: all 0.4s ease;
+    }
+    .menu-wrap .menu > div > div {
+        text-align: left;
+        max-width: 90vw;
+        max-height: 100vh;
+        opacity: 0;
+        transition: opacity 0.4s ease;
+    }
+    .menu-wrap .menu > div > div > ul > li{
+        list-style: none;
+        color: rgba(4, 11, 20, 1);
+        font-size: 20px;
+        padding: 2px;
+    }
+    .menu-wrap .menu > div > div > ul > li > a{
+        color: inherit;
+        text-decoration: none;
+        transition: color 0.4s ease
+    }
+    /* ABOUT HTML */
+    .aboutMe-container{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .aboutMe-section{
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        line-height: 0px;
+        margin-left: 700px;
+    }
+    .section-title{
+        width: 370px;
+        line-height: 0;
+        margin: 0;
+    }
+    .about-icon{
+        width: 28%;
+        height: 10%;
+        margin-left: 16px;
+        margin-top: 10px;
+    }
+    .mid-container{
+        margin-top: 35px;
+    }
+    .right-left-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .right-col-information{
+        width: 370px;
+        line-height: 0;
+        margin: 0;
+        padding: 0 12px;
+    }
+    .ul-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-left: 25px;    
+    }
+    .right-ul{
+        padding: 0;
+        margin: 0;
+        line-height: 20px;
+    }
+    .left-ul{
+        padding: 0;
+        margin: 0;
+        line-height: 20px;
+    }
+    .skill-section{
+        height: 750px;
+        margin-top: 875px;
+        padding-left: 0;
+        width: 100vw;
+    }
+    .skill-desc{
+        margin-left: 12px;
+        width: 370px;
+    }
+    .skill-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .skill-left{
+        margin: 0;
+        padding: 0;
+    }
+    .skill-right{
+        margin: 0;
+        padding: 0;
+    }
+    .progress{
+        width: 50%;
+    }
+    .fill-html{
+        width: 90%;
+    }
+    .fill-js{
+        width: 60%;
+    }
+    .fill-css{
+        width: 85%;
+    }
+    .fill-java{
+        width: 85%;
+    }
+    .fill-python{
+        width: 65%;
+    }
+    .fill-csharp{
+        width: 85%;
+    }
+    
+}
