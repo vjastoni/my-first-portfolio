@@ -242,5 +242,26 @@
     .fill-csharp{
         width: 85%;
     }
-    
+    /* PROFILE HTML*/
+    .profile-container{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+    .right-left-resume{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .information-summary{
+        width: 65%;
+    }
+    .information-summary p{
+        width: 93%;
+    }
+    .resume-container-right{
+        height: 100%;
+    }
 }
