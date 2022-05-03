@@ -30,9 +30,10 @@
   /* FLOATING MENU BAR */
   .menu-wrap {
     position: fixed;
+    height: 100vh;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 999;
   }
   .menu-wrap .toggler {
     position: absolute;
@@ -117,7 +118,7 @@
   .menu-wrap .menu > div {
     background-color: rgba(225, 230, 238, 0.98);
     width: 200vw;
-    height: 200vw;
+    height: 200vh;
     display: flex;
     flex: none;
     align-items: center;
