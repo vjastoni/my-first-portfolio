@@ -147,13 +147,12 @@
     transition: color 0.4s ease;
   }
   .carousel-view {
-    z-index: -1;
+    height: 780px;
   }
   .carousel-item {
     margin: 0;
     padding: 0;
   }
-
   .resize {
     width: 300%;
     margin: 0;
@@ -162,13 +161,13 @@
   .arrow-prev {
     left: -30px;
     position: absolute;
-    top: 106%;
+    top: 109%;
     transform: translateY(-50%) rotate(135deg);
   }
   .arrow-next {
     right: -30px;
     position: absolute;
-    top: 106%;
+    top: 109%;
     transform: translateY(-50%) rotate(-45deg);
   }
 
