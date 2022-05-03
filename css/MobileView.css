@@ -150,8 +150,6 @@
     height: 650px;
   }
   .carousel-item {
-    position: absolute;
-    bottom: -820px;
     height: 500px;
     margin: 0;
     padding: 0;
