@@ -1,3 +1,4 @@
+/* For Pixel 5 */
 @media screen and (max-width: 450px) {
   /* INDEX HTML */
   html {
@@ -303,5 +304,63 @@
   }
   .cert-img {
     width: 28%;
+  }
+  /* PROJECT HTML */
+  .project-container {
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .project-section {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 10px;
+    width: 350px;
+    height: 960px;
+  }
+  .row-split {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+    font-size: small;
+    gap: 0;
+  }
+  .row-split p {
+    line-height: 30px;
+    width: 100%;
+  }
+  .row-split img {
+    width: 300px;
+    align-self: center;
+  }
+  .project-section:nth-child(4) {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 10px;
+    width: 350px;
+    height: 820px;
+  }
+  .project-section:nth-child(5) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 10px;
+    width: 350px;
+    height: 960px;
+  }
+  .project-section:nth-child(6) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 10px;
+    width: 350px;
+    height: 960px;
   }
 }
