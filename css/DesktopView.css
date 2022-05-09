@@ -691,6 +691,9 @@ h4 {
   width: 600px;
 }
 
+.noLine {
+  text-decoration: none;
+}
 .project-section:nth-child(5) {
   justify-content: center;
   width: 1320px;
@@ -706,8 +709,27 @@ h4 {
 .row-split p {
   font-size: larger;
   text-align: justify;
-  width: 50%;
+  width: 95%;
   line-height: 40px;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 40px;
+  cursor: pointer;
+  border: 2px solid#040b14;
+  transition-duration: 0.3s;
+  border-radius: 40px;
+}
+.button-container:hover {
+  background-color: #040b14;
+  color: #ffff;
+}
+.link-icon {
+  width: 20px;
+  height: 20px;
 }
 
 @media screen and (min-width: 451px) {
