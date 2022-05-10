@@ -305,6 +305,12 @@
   .resume-container-right {
     height: 100%;
   }
+  .aboutMes-p,
+  .aboutMes-h2 {
+    line-height: 30px;
+    text-align: justify;
+    margin: 0;
+  }
   /* CERTIFICATES HTML */
   .cert-div {
     display: flex;
