@@ -400,4 +400,43 @@
     width: 55%;
     margin-left: 5px;
   }
+  /* Contacts html */
+
+  .contact-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 5px;
+    padding-bottom: 380px;
+  }
+  .contact-container h2 {
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+  }
+  .contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 115px;
+  }
+  .loc-wrapper,
+  .message-wrapper {
+    width: 450px;
+    height: 700px;
+  }
+  .map-size {
+    width: 450px;
+  }
+  .row-splitter {
+    display: flex;
+    flex-direction: column;
+  }
+  .field-sizes,
+  .field-size {
+    width: 320px;
+  }
 }

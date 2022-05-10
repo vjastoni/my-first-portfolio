@@ -382,4 +382,41 @@
     width: 350px;
     height: 960px;
   }
+  /* For Contacts */
+  .contact-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 5px;
+  }
+  .contact-container h2 {
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+  }
+  .loc-wrapper,
+  .message-wrapper {
+    width: 340px;
+    height: 700px;
+  }
+  .map-size {
+    width: 340px;
+  }
+  .row-splitter {
+    display: flex;
+    flex-direction: column;
+  }
+  .field-sizes,
+  .field-size {
+    width: 320px;
+  }
 }
