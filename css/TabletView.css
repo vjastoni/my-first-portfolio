@@ -29,6 +29,19 @@
     padding: 0;
     margin: 0;
   }
+  .jas {
+    margin-left: 40px;
+    margin-top: 0px;
+    color: #040b14;
+  }
+  .profile-pic {
+    margin-left: 80px;
+  }
+  .soc-med {
+    margin-bottom: 40px;
+    margin-left: 40px;
+  }
+
   .carousel-view {
     height: 650px;
     margin-top: 600px;
@@ -153,7 +166,7 @@
     align-items: center;
     align-content: center;
     justify-content: flex-start;
-    margin-left: 700px;
+    margin-left: 620px;
     padding-left: 600px;
     font-weight: bolder;
     transform: scale(0);
@@ -171,6 +184,7 @@
     color: rgba(4, 11, 20, 1);
     font-size: 20px;
     padding: 2px;
+    text-align: center;
   }
   .menu-wrap .menu > div > div > ul > li > a {
     color: inherit;
