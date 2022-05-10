@@ -63,7 +63,6 @@ body {
   align-items: center;
   transition-duration: 0.4s;
 }
-
 .icon {
   height: 15px;
   height: 15px;
@@ -730,6 +729,78 @@ h4 {
 .link-icon {
   width: 20px;
   height: 20px;
+}
+.contact-container h2 {
+  margin-left: 450px;
+  margin-top: 120px;
+}
+.contact-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 1200px;
+  height: 600px;
+  gap: 60px;
+  margin-left: 450px;
+}
+.loc-wrapper {
+  display: flex;
+  flex-direction: column;
+  font-size: x-large;
+  gap: 15px;
+  width: 400px;
+  height: 550px;
+  padding: 20px;
+  justify-content: center;
+  align-items: flex-start;
+  border: 1px solid #f2f2f2;
+  box-shadow: 10px 10px 5px lightgray;
+}
+.message-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  width: 650px;
+  height: 550px;
+  padding: 20px;
+  border: 1px solid #f2f2f2;
+  box-shadow: 10px 10px 5px lightgray;
+}
+.row-splitter {
+  display: flex;
+  gap: 20px;
+}
+.splitter {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.field-size {
+  height: 40px;
+  width: 305px;
+  border: 1px solid #939597;
+}
+.field-sizes {
+  height: 40px;
+  width: 641px;
+  border: 1px solid #939597;
+}
+.textArea-size {
+  border: 1px solid #939597;
+}
+.button-pos {
+  display: flex;
+  justify-content: center;
+}
+.button-des {
+  width: 125px;
+  height: 45px;
+  background-color: #149ddd;
+  border: 1px solid #149ddd;
+  border-radius: 5px;
+  color: white;
+  margin-top: 10px;
 }
 
 @media only screen and (min-width: 1080px) {
