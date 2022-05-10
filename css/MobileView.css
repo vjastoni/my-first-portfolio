@@ -1,5 +1,5 @@
 /* For Pixel 5 */
-@media screen and (max-width: 450px) {
+@media only screen and (min-width: 393px) and (max-width: 767px) {
   /* INDEX HTML */
   html {
     overflow-x: hidden;
@@ -125,7 +125,8 @@
     align-items: center;
     align-content: flex-start;
     justify-content: flex-start;
-    margin-left: 400px;
+    margin-left: 350px;
+    padding-left: 50px;
     font-weight: bolder;
     transform: scale(0);
     transition: all 0.4s ease;
