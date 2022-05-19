@@ -1,0 +1,38 @@
+@media only screen and (min-width: 1366px) {
+  .header-container {
+    zoom: 80%;
+    margin-left: 390px;
+  }
+  li {
+    color: #a8a9b4;
+    margin-bottom: 25px;
+    font-size: 15px;
+  }
+  .carousel-view {
+    margin-left: 110px;
+    width: 100vw;
+  }
+  .aboutMe-container {
+    zoom: 75%;
+    margin-left: 380px;
+  }
+  .skill-section {
+    zoom: 75%;
+    margin-left: 30px;
+  }
+  .profile-container {
+    zoom: 85%;
+    margin-top: 10px;
+  }
+  .project-container {
+    zoom: 75%;
+    margin-left: 410px;
+  }
+  .cert-div {
+    zoom: 75%;
+  }
+  .contact-container {
+    zoom: 75%;
+    margin-left: 50px;
+  }
+}

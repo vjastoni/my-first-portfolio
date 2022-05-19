@@ -668,6 +668,8 @@ h4 {
   height: 700px;
   border-radius: 50px;
   box-shadow: 10px 10px 5px lightgray;
+  position: relative;
+  animation: topFade 2s;
 }
 .project-section h3 {
   align-self: center;
@@ -697,17 +699,23 @@ h4 {
   justify-content: center;
   width: 1110px;
   height: 490px;
+  position: relative;
+  animation: topFade 2s;
 }
 .project-section:nth-child(5) {
   justify-content: center;
   width: 1320px;
   height: 690px;
+  position: relative;
+  animation: topFade 2s;
 }
 
 .project-section:nth-child(6) {
   width: 1320px;
   height: 660px;
   margin-bottom: 20px;
+  position: relative;
+  animation: topFade 2s;
 }
 
 .row-split p {
@@ -760,6 +768,8 @@ h4 {
   align-items: flex-start;
   border: 1px solid #f2f2f2;
   box-shadow: 10px 10px 5px lightgray;
+  position: relative;
+  animation: rightFade 2s;
 }
 .message-wrapper {
   display: flex;
@@ -771,6 +781,8 @@ h4 {
   padding: 20px;
   border: 1px solid #f2f2f2;
   box-shadow: 10px 10px 5px lightgray;
+  position: relative;
+  animation: leftFade 2s;
 }
 .row-splitter {
   display: flex;
