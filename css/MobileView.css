@@ -377,7 +377,7 @@
     margin: 0;
     padding: 10px;
     width: 350px;
-    height: 960px;
+    height: 500px;
   }
   .project-section:nth-child(6) {
     display: flex;
@@ -386,7 +386,7 @@
     margin: 0;
     padding: 10px;
     width: 350px;
-    height: 960px;
+    height: 750px;
   }
   /* For Contacts */
   .contact-container {

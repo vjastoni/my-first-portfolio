@@ -363,7 +363,7 @@
     margin: 0;
     padding: 20px;
     width: 700px;
-    height: 945px;
+    height: 750px;
   }
   .project-section:nth-child(5) {
     display: flex;
@@ -372,7 +372,7 @@
     margin: 0;
     padding: 10px;
     width: 720px;
-    height: 945px;
+    height: 700px;
   }
   .project-section:nth-child(6) {
     display: flex;
@@ -381,7 +381,7 @@
     margin: 0;
     padding: 10px;
     width: 720px;
-    height: 960px;
+    height: 780px;
   }
   .digiserve {
     width: 650px;
