@@ -139,8 +139,8 @@ p {
   justify-content: center;
   align-content: center;
   align-items: center;
-  margin-left: 140px;
-  margin-top: 200px;
+  padding-left: 150px;
+  margin-top: 170px;
 }
 
 .title,
@@ -210,7 +210,7 @@ line,
 
 .carousel-item {
   position: absolute;
-  margin-left: 160px;
+  margin-left: 250px;
   height: 70%;
   width: 30%;
   opacity: 0;
@@ -228,13 +228,13 @@ line,
 }
 
 .arrow-prev {
-  left: -300px;
+  left: -200px;
   position: absolute;
   top: 50%;
   transform: translateY(-50%) rotate(135deg);
 }
 .arrow-next {
-  right: -300px;
+  right: -200px;
   position: absolute;
   top: 50%;
   transform: translateY(-50%) rotate(-45deg);
