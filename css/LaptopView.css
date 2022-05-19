@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1366px) {
+@media only screen and (max-width: 1366px) {
   .header-container {
     zoom: 80%;
     margin-left: 390px;
@@ -9,7 +9,7 @@
     font-size: 15px;
   }
   .carousel-view {
-    margin-left: 110px;
+    margin-left: 70px;
     width: 100vw;
   }
   .aboutMe-container {
@@ -18,7 +18,7 @@
   }
   .skill-section {
     zoom: 75%;
-    margin-left: 30px;
+    margin-left: 55px;
   }
   .profile-container {
     zoom: 85%;
