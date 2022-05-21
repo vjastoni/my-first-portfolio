@@ -1,4 +1,4 @@
-@media screen and (max-width: 1366px) {
+@media only screen and (min-width: 1030px) and (max-width: 1366px) {
   .header-container {
     zoom: 80%;
     margin-left: 390px;
