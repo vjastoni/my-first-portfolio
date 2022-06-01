@@ -22,15 +22,30 @@
   }
   .skill-section {
     zoom: 75%;
-    margin-left: 45px;
+    margin-left: 54px;
   }
   .profile-container {
-    zoom: 85%;
-    margin-top: 10px;
+    zoom: 80%;
+    margin-top: 30px;
   }
   .project-container {
     zoom: 75%;
-    margin-left: 410px;
+    margin-left: 450px;
+  }
+  .digiserve {
+    width: 700px;
+    height: 400px;
+  }
+  .datacom {
+    height: 600px;
+  }
+  .project-section:nth-child(5) {
+    width: 1150px;
+    height: 600px;
+  }
+  .project-section:nth-child(6) {
+    width: 1100px;
+    height: 670px;
   }
   .cert-div {
     zoom: 75%;
