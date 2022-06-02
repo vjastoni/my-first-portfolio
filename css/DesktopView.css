@@ -248,13 +248,13 @@ line,
 }
 
 .arrow-prev {
-  left: -200px;
+  left: -300px;
   position: absolute;
   top: 50%;
   transform: translateY(-50%) rotate(135deg);
 }
 .arrow-next {
-  right: -200px;
+  right: -300px;
   position: absolute;
   top: 50%;
   transform: translateY(-50%) rotate(-45deg);

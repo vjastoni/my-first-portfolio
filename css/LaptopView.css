@@ -58,4 +58,16 @@
     zoom: 75%;
     margin-left: 50px;
   }
+  .arrow-prev {
+    left: -200px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) rotate(135deg);
+  }
+  .arrow-next {
+    right: -200px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) rotate(-45deg);
+  }
 }
