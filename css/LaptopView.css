@@ -24,6 +24,10 @@
     zoom: 75%;
     margin-left: 54px;
   }
+  .skill-left,
+  .skill-right {
+    zoom: 95%;
+  }
   .profile-container {
     zoom: 80%;
     margin-top: 30px;
