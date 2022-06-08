@@ -276,6 +276,7 @@ line,
 #item-1:target ~ .item-1 {
   opacity: 1;
 }
+/*  */
 
 #item-2:target ~ .item-2,
 #item-3:target ~ .item-3,
